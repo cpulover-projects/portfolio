@@ -1,8 +1,18 @@
 div.jumbotron-fluid {
     height: 470px;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('/images/introduction-bg.jpg');
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.8) 100%), url('/images/introduction-bg.jpg');
     background-size: cover;
     /* height: 100%; */
+}
+
+i {
+    font-size: 25px !important;
+    margin: 7px !important;
+    /* color: white; */
+}
+
+a {
+    text-decoration: none;
 }
 
 #introduction {
@@ -18,6 +28,6 @@ div.jumbotron-fluid {
 
 .page-content {
     height: 2000px;
-    background-color: antiquewhite;
+    background-color: rgb(247, 240, 232);
     /* background-image: url('images/introduction-bg.jpg'); */
 }
