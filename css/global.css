@@ -36,13 +36,38 @@ a {
 
 
 .active {
-    background-color:rgba(243, 157, 157, 0.342);
+    background-color:rgba(119, 119, 119, 0.342);
     border-radius: 10%;
 }
 
 .page-content {
     text-align: center;
-    height: 800px;
-    background-color: rgb(247, 240, 232);
-    /* background-image: url('images/introduction-bg.jpg'); */
+    padding-bottom: 70px;
+    /* height: 800px; */
+    background-color: white;
+    /* background-color: rgb(247, 240, 232); */
+}
+
+#portfolio {
+    background-color: black;
+}
+
+.col-lg {
+    /* border: black 1px solid; */
+}
+
+#avt {
+    width: 300px;
+}
+
+.progress {
+    background-color: rgba(141, 141, 141, 0.253);
+    height: 25px;
+}
+
+.progress-label {
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-left: 1em;
 }
