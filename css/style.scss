@@ -41,7 +41,7 @@ a {
 
 
 .active {
-    background-color:rgba(119, 119, 119, 0.342);
+    background-color: $menuActiveBgColor;
     border-radius: 10%;
 }
 
@@ -53,10 +53,7 @@ a {
     /* background-color: rgb(247, 240, 232); */
 }
 
-#portfolio {
-    background-color: black;
-}
-
+/*** ABOUT ME ***/
 #avt {
     width: 300px;
 }
@@ -67,8 +64,32 @@ a {
 }
 
 .progress-label {
+    font-size: 15px;
     padding: 0;
     margin: 0;
     float: right;
     margin-left: 1em;
+}
+
+.card-footer-custom {
+    // background-color: green !important;
+    // position: absolute;
+    // bottom: 10px;
+    // margin: auto 0;
+}
+
+
+#portfolio {
+    background-color: black;
+}
+
+/*** CARD ***/
+.card-img-top {
+    height: $cardImgHeight;
+}
+
+.card-text {
+    color: rgb(94, 94, 94);
+    text-align: justify;
+    text-justify: inter-word;
 }

@@ -32,7 +32,7 @@ a {
 }
 
 .active {
-  background-color: rgba(119, 119, 119, 0.342);
+  background-color: rgba(134, 134, 134, 0.342);
   border-radius: 10%;
 }
 
@@ -44,10 +44,7 @@ a {
   /* background-color: rgb(247, 240, 232); */
 }
 
-#portfolio {
-  background-color: black;
-}
-
+/*** ABOUT ME ***/
 #avt {
   width: 300px;
 }
@@ -58,10 +55,26 @@ a {
 }
 
 .progress-label {
+  font-size: 15px;
   padding: 0;
   margin: 0;
   float: right;
   margin-left: 1em;
+}
+
+#portfolio {
+  background-color: black;
+}
+
+/*** CARD ***/
+.card-img-top {
+  height: 200px;
+}
+
+.card-text {
+  color: #5e5e5e;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /*# sourceMappingURL=style.css.map */
