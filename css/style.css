@@ -1,0 +1,67 @@
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+div.jumbotron-fluid {
+  height: 470px;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url("https://www.mesiniaga.com.my/asset/img/mesiniaga-customcodes-parallax-1.jpg");
+  background-size: cover;
+  /* height: 100%; */
+}
+
+i {
+  font-size: 25px !important;
+  margin: 7px !important;
+  /* color: white; */
+}
+
+a {
+  text-decoration: none;
+}
+
+#introduction {
+  text-align: center;
+  color: white;
+}
+
+.nav-link {
+  /* background-color:darkgreen; */
+  text-align: center;
+}
+
+.active {
+  background-color: rgba(119, 119, 119, 0.342);
+  border-radius: 10%;
+}
+
+.page-content {
+  text-align: center;
+  padding-bottom: 70px;
+  /* height: 800px; */
+  background-color: white;
+  /* background-color: rgb(247, 240, 232); */
+}
+
+#portfolio {
+  background-color: black;
+}
+
+#avt {
+  width: 300px;
+}
+
+.progress {
+  background-color: rgba(131, 131, 131, 0.253);
+  height: 15px;
+}
+
+.progress-label {
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-left: 1em;
+}
+
+/*# sourceMappingURL=style.css.map */

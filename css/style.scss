@@ -1,3 +1,8 @@
+@import "color";
+@import "size";
+
+// $progressColor: rgba(154, 5, 5, 0.253);
+
 body {
     position: relative;
     margin: 0;
@@ -52,17 +57,13 @@ a {
     background-color: black;
 }
 
-.col-lg {
-    /* border: black 1px solid; */
-}
-
 #avt {
     width: 300px;
 }
 
 .progress {
-    background-color: rgba(141, 141, 141, 0.253);
-    height: 25px;
+    background-color: $progressBgColor;
+    height: $progressHeight;
 }
 
 .progress-label {
