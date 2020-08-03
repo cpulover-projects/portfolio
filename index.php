@@ -45,7 +45,7 @@
   <!-- END OF INTRODUCTION -->
 
   <!-- NAVIGATOR BAR -->
-  <nav id="navbar" class="navbar navbar-expand-sm bg-dark sticky-top">
+  <nav id="navbar" class="navbar navbar-expand-sm bg-dark sticky-top mt-0 ">
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon bg-light"></span>
@@ -233,27 +233,7 @@
           </div>
         </div>
 
-        <div class="col mb-4">
-          <div class="card h-100">
-            <img src="images/placeholder.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">E-commerce CRM Microservices</h5>
-              <p>
-                <span class="badge badge-pill badge-danger">Java</span>
-                <span class="badge badge-pill badge-danger">Spring Boot</span>
-                <span class="badge badge-pill badge-danger">Spring Cloud</span>
-                <span class="badge badge-pill badge-danger">Spring Data</span>
-                <span class="badge badge-pill badge-danger">Netflix OSS</span>
-                <span class="badge badge-pill badge-danger">Hibernate-JPA</span>
-                <span class="badge badge-pill badge-danger">H2 Database</span>
-              </p>
-              <hr>
-              <p class="card-text">A web application applying microservice architecture with CRUD RESTful APIs in order to manage customers and orders for E-commerce.</p>
-              <a href="https://github.com/cpulover-projects/ecommerce-crm-microservices"  target="_blank" class="btn btn-dark">Source code</a>
-            </div>
-          </div>
-        </div>
-      </div>
+        
       <!-- End of Cards -->
     </div>
 
@@ -264,6 +244,25 @@
   <div class="page-content" id="contact">
     <br><br><br>
     <h1>Contact</h1>
+    <div class="container">
+      <form  method="post">
+
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <br>
+          <textarea name="message" id="message" cols="100" rows="10"></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark">Summit</button>
+      </form>
+      </div>
   </div>
   <!-- END OF CONTACT -->
 

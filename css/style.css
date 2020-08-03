@@ -33,12 +33,12 @@ a {
 
 .active {
   background-color: rgba(134, 134, 134, 0.342);
-  border-radius: 10%;
+  border-radius: 12%;
 }
 
 .page-content {
   text-align: center;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
   /* height: 800px; */
   background-color: white;
   /* background-color: rgb(247, 240, 232); */
@@ -63,7 +63,7 @@ a {
 }
 
 #portfolio {
-  background-color: black;
+  background-color: #cf5f5f;
 }
 
 /*** CARD ***/
