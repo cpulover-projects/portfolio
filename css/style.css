@@ -38,7 +38,7 @@ a {
 
 .page-content {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
   /* height: 800px; */
   background-color: white;
   /* background-color: rgb(247, 240, 232); */
@@ -63,7 +63,7 @@ a {
 }
 
 #portfolio {
-  background-color: #cf5f5f;
+  background-color: black;
 }
 
 /*** CARD ***/
@@ -75,6 +75,11 @@ a {
   color: #5e5e5e;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.form-control, #error {
+  width: 400px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
