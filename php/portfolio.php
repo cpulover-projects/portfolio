@@ -79,6 +79,29 @@
            </div>
          </div>
        </div>
+
+       <div class="col mb-4">
+         <div class="card h-100">
+           <img src="images/placeholder.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">Corona Checker</h5>
+             <p>
+               <span class="badge badge-pill badge-danger">PHP</span>
+               <span class="badge badge-pill badge-primary">HTML5</span>
+               <span class="badge badge-pill badge-primary">CSS3</span>
+               <span class="badge badge-pill badge-primary">Bootstrap</span>
+               <span class="badge badge-pill badge-primary">JavaScript</span>
+               <span class="badge badge-pill badge-primary">jQuery</span>
+             </p>
+             <hr>
+             <p class="card-text">
+             A website scraping Corona data from Worldometers, so that instead of going to their website to check numbers, you only need to ... wait something is wrong! Anyways it's fun to build :P
+             </p>
+             <a href="https://github.com/cpulover-projects/corona-scraper-website" target="_blank"
+               class="btn btn-dark">Source code</a>
+           </div>
+         </div>
+       </div>
        <!-- End of Cards -->
      </div>
      <br>
