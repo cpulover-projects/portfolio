@@ -72,7 +72,7 @@
              </p>
              <hr>
              <p class="card-text">
-               A GUI desktop application to retrieve the weather data along with location image, litte crappy.
+               A GUI desktop application invoking API to retrieve the weather data along with image of the location, little crappy.
              </p>
              <a href="https://github.com/cpulover-projects/ecommerce-crm-microservices" target="_blank"
                class="btn btn-dark">Source code</a>
@@ -82,7 +82,7 @@
 
        <div class="col mb-4">
          <div class="card h-100">
-           <img src="images/placeholder.png" class="card-img-top" alt="...">
+           <img src="images/corona-checker.PNG" class="card-img-top" alt="...">
            <div class="card-body">
              <h5 class="card-title">Corona Checker</h5>
              <p>
@@ -99,6 +99,7 @@
              </p>
              <a href="https://github.com/cpulover-projects/corona-scraper-website" target="_blank"
                class="btn btn-dark">Source code</a>
+        
            </div>
          </div>
        </div>
