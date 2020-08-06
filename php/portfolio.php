@@ -52,7 +52,7 @@
                admin to manage all accounts with database.
              </p>
              <div class="card-footer-custom">
-               <a href="https://github.com/cpulover-projects/ecommerce-crm-microservices" target="_blank"
+               <a href="https://github.com/cpulover-projects/multistore-shopping-desktop-app" target="_blank"
                  class="btn btn-dark">Source code</a>
              </div>
            </div>
@@ -74,7 +74,7 @@
              <p class="card-text">
                A GUI desktop application invoking API to retrieve the weather data along with image of the location, little crappy.
              </p>
-             <a href="https://github.com/cpulover-projects/ecommerce-crm-microservices" target="_blank"
+             <a href="https://github.com/cpulover-projects/weather-rest-client" target="_blank"
                class="btn btn-dark">Source code</a>
            </div>
          </div>
