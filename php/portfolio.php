@@ -84,7 +84,7 @@
          <div class="card h-100">
            <img src="images/corona-checker.PNG" class="card-img-top" alt="...">
            <div class="card-body">
-             <h5 class="card-title">Corona Checker</h5>
+             <h5 class="card-title">Corona Scrapper</h5>
              <p>
                <span class="badge badge-pill badge-danger">PHP</span>
                <span class="badge badge-pill badge-primary">HTML5</span>
@@ -99,7 +99,30 @@
              </p>
              <a href="https://github.com/cpulover-projects/corona-scraper-website" target="_blank"
                class="btn btn-dark">Source code</a>
-        
+           </div>
+         </div>
+       </div>
+
+       <div class="col mb-4">
+         <div class="card h-100">
+           <img src="images/placeholder.png" class="card-img-top" alt="...">
+           <div class="card-body">
+             <h5 class="card-title">The Dark Diary</h5>
+             <p>
+               <span class="badge badge-pill badge-danger">PHP</span>
+               <span class="badge badge-pill badge-danger">OAuth</span>
+               <span class="badge badge-pill badge-success">MySQL</span>
+               <span class="badge badge-pill badge-primary">HTML5</span>
+               <span class="badge badge-pill badge-primary">CSS3</span>
+               <span class="badge badge-pill badge-primary">Bootstrap</span>
+               <span class="badge badge-pill badge-primary">JavaScript</span>
+               <span class="badge badge-pill badge-primary">jQuery</span>
+             </p>
+             <hr>
+             <p class="card-text">
+             A place to hide all of your darkest secrets in your life: MySQL database.             </p>
+             <a href="http://justacpulover.com/projects/the-dark-diary" target="_blank"
+               class="btn btn-dark">Source code</a>
            </div>
          </div>
        </div>
