@@ -3,16 +3,18 @@
 
 // $progressColor: rgba(154, 5, 5, 0.253);
 
-
 body {
     position: relative;
     margin: 0;
     padding: 0;
   }
 
+.blank {
+    height: 10vh;
+}
 
 div.jumbotron-fluid {
-    height: 470px;
+    height: 92vh;
     background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), 
     url('https://www.mesiniaga.com.my/asset/img/mesiniaga-customcodes-parallax-1.jpg');
     background-size: cover;
@@ -29,10 +31,13 @@ a {
     text-decoration: none;
 }
 
-
 #introduction {
     text-align: center;
     color: white;
+}
+
+#navbar {
+    height: $navbarHeight;
 }
 
 .nav-link {
@@ -49,7 +54,7 @@ a {
 .page-content {
     text-align: center;
     padding-bottom: 0px;
-    /* height: 800px; */
+    height: 100vh;
     background-color: white;
     /* background-color: rgb(247, 240, 232); */
 }
