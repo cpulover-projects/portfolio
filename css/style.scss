@@ -31,6 +31,14 @@ a {
     /* background-color: rgb(247, 240, 232); */
 }
 
+.back-to-top {
+    opacity: 0.8;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
 /*** INTRODUCTION ***/
 div.jumbotron-fluid {
     height: 100vh-$navbarHeight;
