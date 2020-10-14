@@ -20,11 +20,11 @@
 <body data-spy="scroll" data-target="#navbar">
 
 <?php
-include "php/introduction.php";
-include "php/navbar.php";
-include "php/about.php";
-include "php/portfolio.php";
-include "php/contact.php";
+include "php/sections/introduction.php";
+include "php/sections/navbar.php";
+include "php/sections/about.php";
+include "php/sections/portfolio.php";
+include "php/sections/contact.php";
 ?>
 
   <!-- Optional JavaScript -->

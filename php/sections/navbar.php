@@ -1,3 +1,5 @@
+<?php require 'php/components/nav-item.php';?>
+
 <!-- NAVIGATOR BAR -->
 <nav id="navbar" class="navbar navbar-expand navbar-light bg-secondary sticky-top mt-0 ">
   <!-- Toggler/collapsibe Button -->
@@ -7,18 +9,12 @@
   <!-- Navbar links -->
   <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
     <ul class="nav navbar-nav">
-      <li class="nav-item">
-        <a href="#home" class="nav-link"><span class="link-text">HOME</span></a>
-      </li>
-      <li class="nav-item">
-        <a href="#about" class="nav-link"><span class="link-text">ABOUT</span></a>
-      </li>
-      <li class="nav-item">
-        <a href="#portfolio" class="nav-link"><span class="link-text">PORFOLIO</span></a>
-      </li>
-      <li class="nav-item">
-        <a href="#contact" class="nav-link"><span class="link-text">CONTACT</span></a>
-      </li>
+      <?php 
+      createNavItem("home", "HOME");
+      createNavItem("about", "ABOUT"); 
+      createNavItem("portfolio", "PORTFOLIO"); 
+      createNavItem("contact", "CONTACT");  
+      ?>
     </ul>
   </div>
 </nav>

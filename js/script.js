@@ -10,8 +10,8 @@ $(document).ready(function () {
         offset: 20
     })
 
-    //stop default submission for authentication
     $("form").submit(function (e) {
+        //stop default submission for authentication
         e.preventDefault();
 
         var error = "";

@@ -3,7 +3,6 @@
 $error = "";
 $success = "";
 if ($_POST) {
-
     if (!$_POST["name"]) {
         $error .= "Name is required <br>";
     }
@@ -15,7 +14,6 @@ if ($_POST) {
     if (!$_POST["message"]) {
         $error .= "Message is required <br>";
     }
-
     if ($error != "") {
         $error = "<div class='alert alert-danger'>" . $error . "</div>";
     } else {
@@ -42,9 +40,7 @@ if ($_POST) {
      <div role="alert" id="error">
        <?php echo $error . $success; ?>
      </div>
-
      <form method="post">
-
        <div class="form-group">
          <!-- <label for="name">Name</label> -->
          <input type="text" name="name" id="name" class="form-control" placeholder="Your name">
@@ -62,7 +58,5 @@ if ($_POST) {
      </form>
    </div>
    <br>
-
-
  </div>
  <!-- END OF CONTACT -->
