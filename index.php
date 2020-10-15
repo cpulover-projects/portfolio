@@ -20,7 +20,7 @@
 <body data-spy="scroll" data-target="#navbar">
 
 <?php
-include "php/sections/introduction.php";
+include "php/sections/home.php";
 include "php/sections/navbar.php";
 include "php/sections/about.php";
 include "php/sections/portfolio.php";
