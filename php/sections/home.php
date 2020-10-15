@@ -22,7 +22,7 @@
     </p>
     <br><br><br>
     <a href="#contact" class="btn btn-outline-light px-3 waves-effect btn-action" aria-hidden="true"><i class="fa fa-comment pr-1"></i>Hire me</a>
-    <a href="" class="btn btn-outline-light px-3 waves-effect btn-action" aria-hidden="true"><i class="fa fa-arrow-circle-down pr-1"></i>My CV</a>
+    <a href="http://justacpulover.com/files/test-cv.pdf" class="btn btn-outline-light px-3 waves-effect btn-action" aria-hidden="true"><i class="fa fa-arrow-circle-down pr-1"></i>My resume</a>
   </div>
 </div>
 <!-- END OF INTRODUCTION -->
