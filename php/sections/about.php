@@ -3,7 +3,7 @@
 <!-- ABOUT ME -->
 <div class="page-content" id="about">
   <br><br><br>
-  <h1>About Me</h1>
+  <h1>About</h1>
   <br><br><br>
   <div class="container">
     <div class="row ">

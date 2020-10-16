@@ -113,6 +113,10 @@ a.active > .link-text {
   text-justify: inter-word;
 }
 
+p.tech-stack {
+  min-height: 60px;
+}
+
 /*** CONTACT ***/
 .form-control, #error {
   width: 400px;
