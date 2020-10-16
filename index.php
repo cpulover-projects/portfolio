@@ -43,7 +43,9 @@ include "php/sections/contact.php";
   </script>
 
   <!-- Custom script -->
-  <script src="js/script.js?<?php echo time(); ?>"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
+  <script type="module" src="node_modules/typed.js/src/typed.js?<?php echo time(); ?>"></script>
+  <script type="module" src="js/script.js?<?php echo time(); ?>"></script>
 </body>
 
 </html>

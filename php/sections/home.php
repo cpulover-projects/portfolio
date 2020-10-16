@@ -7,7 +7,7 @@
     <div class="display-1">Hello, world!</div>
     <div class="blank"></div>
     <!-- <br><br><br><br> -->
-    <h1><b>I am <span class="text-danger">Hieu Ngo</span>. I create webs, softwares & games :P</b></h1>
+    <h1><b>I am <span class="text-danger">Hieu Ngo</span>. I create <span class="typing"></span> :P</b></h1>
     <br>
     <p>
       <a href="https://www.linkedin.com/in/cpulover/" target="_blank">

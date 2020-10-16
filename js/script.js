@@ -1,3 +1,5 @@
+import Typed from '../node_modules/typed.js/src/typed.js';
+
 $(document).ready(function () {
     // "use strict";
 
@@ -11,7 +13,7 @@ $(document).ready(function () {
     });
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > window.innerHeight/8) {
+        if ($(this).scrollTop() > window.innerHeight / 8) {
             $('#back-to-top').fadeIn();
         } else {
             $('#back-to-top').fadeOut();
@@ -24,6 +26,13 @@ $(document).ready(function () {
         }, 400);
         return false;
     });
+
+    var options = {
+        strings: ['web', 'solfware', 'game'],
+        typeSpeed: 40,
+        loop: !0
+    };
+    var typed = new Typed('.typing', options);
 
     $("form").submit(function (e) {
         //stop default submission for authentication
@@ -46,5 +55,5 @@ $(document).ready(function () {
         } else {
             $(this).unbind("submit").submit();
         }
-    })
+    });
 });
