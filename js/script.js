@@ -29,7 +29,7 @@ $(document).ready(function () {
 
     var options = {
         strings: ['web', 'solfware', 'game'],
-        typeSpeed: 40,
+        typeSpeed: 50,
         loop: !0
     };
     var typed = new Typed('.typing', options);

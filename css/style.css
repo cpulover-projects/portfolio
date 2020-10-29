@@ -82,7 +82,8 @@ a.active > .link-text {
 
 /*** ABOUT ME ***/
 #avt {
-  width: 300px;
+  width: 250px;
+  height: 450px;
 }
 
 .progress {
@@ -121,5 +122,9 @@ p.tech-stack {
 .form-control, #error {
   width: 400px;
   margin: 0 auto;
+}
+
+#message {
+  height: 345px;
 }
 /*# sourceMappingURL=style.css.map */

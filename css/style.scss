@@ -96,7 +96,8 @@ a.active > .link-text {
 
 /*** ABOUT ME ***/
 #avt {
-    width: 300px;
+    width: 250px;
+    height: 450px;
 }
 
 .progress {
@@ -147,3 +148,7 @@ p.tech-stack {
     width: 400px;
     margin: 0 auto;
 }
+
+#message {
+    height: 345px;
+  }

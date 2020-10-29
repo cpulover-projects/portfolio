@@ -14,7 +14,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/style.css?<?php echo time(); ?>">
 
-  <title>technoob</title>
+  <title>enginoobz</title>
 </head>
 
 <body data-spy="scroll" data-target="#navbar">
