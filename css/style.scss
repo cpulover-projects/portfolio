@@ -2,6 +2,7 @@
 @import "size";
 
 /*** COMMON ***/
+
 body {
     position: relative;
     margin: 0;
@@ -30,7 +31,7 @@ a:hover {
     text-align: center;
     padding-bottom: 0px;
     min-height: 100vh;
-    // height: 100vh;
+    // height: 10vh;
     background-color: white;
     /* background-color: rgb(247, 240, 232); */
 }
@@ -98,6 +99,10 @@ a.active > .link-text {
 #avt {
     width: 250px;
     height: 450px;
+}
+
+#introduction-text {
+    // font-family: 'Open Sans', sans-serif;
 }
 
 .progress {
